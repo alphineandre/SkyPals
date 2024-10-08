@@ -43,7 +43,7 @@ class Login : AppCompatActivity() {
                     }
                 }
             } else {
-                Toast.makeText(this, "Fields cannot be empty", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "Fields cannot be empty. ", Toast.LENGTH_SHORT).show()
             }
         }
 
