@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrivacyPolicyFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Privacy Policy"
+                android:textColor="@color/skyblue"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Last Updated: [Date]"
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="Skypals respects your privacy and is committed to protecting your personal information. This Privacy Policy describes how we collect, use, disclose, and protect your personal data in connection with our mobile application, Skypals"
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="By using the App, you agree to the terms and practices outlined in this Privacy Policy. If you do not agree with these terms, please do not use the App."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="1. Information We Collect"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="1.1 Personal Information: We may collect personal information that you provide to us, including, but not limited to, your name, email address, and any other information you voluntarily submit within the App."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="1.2 Usage Information: We may collect information about how you use the App, such as the frequency and duration of your interactions, the features you access, and the content you view."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="2. How We Use Your Information"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="We may use your information for the following purposes:"
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="2.1 Providing and Improving the App: To provide you with the App's features and services, improve the App's functionality, and optimize your experience."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="2.2 Communication: To respond to your inquiries, send you notifications, and communicate with you regarding your use of the App."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="3. Disclosure of Your Information"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="We may disclose your information under the following circumstances:"
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="3.1 With Your Consent: We may share your information with your explicit consent."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="3.2 Service Providers: We may share your information with third-party service providers who assist us in providing and maintaining the App."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="4. Security"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="We take reasonable measures to protect your personal information from unauthorized access, disclosure, alteration, and destruction. However, no data transmission or storage system can be guaranteed to be 100% secure."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="5. Your Choices and Rights"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="You have the following choices and rights regarding your information:"
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="5.1 Access and Correction: You may access and correct your personal information by contacting us at [contact email]."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="5.2 Data Deletion: You may request the deletion of your personal information by contacting us at [contact email]."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="6. Changes to this Privacy Policy"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="We may update this Privacy Policy from time to time to reflect changes in our practices and the law. We will post the updated Privacy Policy within the App, and the \Last Updated\ date will be revised accordingly."
+                android:textColor="@color/skyblue" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:text="7. Contact Us"
+                android:textColor="@color/skyblue"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="If you have any questions or concerns about this Privacy Policy, please contact us at [contact email]."
+                android:textColor="@color/skyblue" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

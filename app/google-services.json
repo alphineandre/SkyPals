@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79584463684",
+    "project_id": "skypals-d42c6",
+    "storage_bucket": "skypals-d42c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79584463684:android:096552c7e151d8c6b96511",
+        "android_client_info": {
+          "package_name": "com.example.skypals"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGL1sqnsdSTGop8kp4w2fB5lF8LlSpQVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

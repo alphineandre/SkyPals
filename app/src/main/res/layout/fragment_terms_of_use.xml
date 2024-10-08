@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsOfUseFragment">
+
+    <!-- fragment_terms_of_use.xml -->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Skypals - Terms of Use"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Acceptance of Terms"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/skyblue"
+                android:text="By using Skypals, you agree to these Terms of Use. If you do not agree, please do not use the app."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. User Conduct"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/skyblue"
+                android:text="You agree to use Skypals in accordance with all applicable laws and regulations."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Registration and Account"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/skyblue"
+                android:text="To access certain features, you may be required to register for an account. You agree to provide accurate, current, and complete information during the registration process. You are responsible for safeguarding your account credentials and ensuring that your account information is up to date."
+                android:layout_marginBottom="16dp" />
+
+            <!-- More sections and content... -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19. Changes to Terms of Use"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/skyblue"
+                android:text="Skypals reserves the right to modify or update these Terms of Use at any time. We will notify users of any significant changes. Your continued use of the app after changes are posted constitutes your acceptance of the revised Terms of Use."
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20. Contact Information"
+                android:textStyle="bold"
+                android:textColor="@color/skyblue"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/skyblue"
+                android:text="If you have any questions about these Terms of Use, please contact us at support@skypalsapp.com."
+                android:layout_marginBottom="16dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SkyPals" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/skyblue</item>
+        <item name="colorPrimaryVariant">@color/skyblue</item>
+        <item name="android:statusBarColor">@color/skyblue</item>
+    </style>
+
+    <style name="Theme.SkyPals" parent="Base.Theme.SkyPals" />
+    
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/skyblue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.SkyPals</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Define light mode attributes -->
+    </style>
+</resources>
